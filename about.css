@@ -1,0 +1,65 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Content Styles */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(224, 83, 107);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    color: #fff;
+    margin-top: 0; /* Remove default margin */
+}
+
+.container h2 {
+    color: #fff;
+    margin-top: 20px; /* Adjust margin top for headings */
+}
+
+.container p {
+    color: honeydew;
+}
+
+.container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container ul li {
+    margin-bottom: 10px;
+}
+
+.container ul li strong {
+    font-weight: bold;
+}
+
+/* Connect with Us Section */
+.connect-with-us {
+    margin-top: 30px;
+}
+
+.connect-with-us h2 {
+    color: #fff;
+}
+
+.social-media-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgb(224, 83, 107);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
